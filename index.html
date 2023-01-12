@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="lang1" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta id="mode" name="color-scheme" content="light">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/scss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Hambuger</title>
+    <title>Hamburger</title>
 </head>
 <body>
     <div class="square">
@@ -17,32 +18,83 @@
             <img>
         </picture>
         <div class="change" id="change">dark</div>
+        <div class="lang" id="language1">svenska</div>
         <div class="height"><i id="bar" class="fa-solid fa-bars"></i></div>
         <div> 
             <ul class="menu hidden" id="menu" >
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li id="home">Home</li>
+                <li id="about">About</li>
+                <li id="contact">Contact</li>
+                <li id="webshop">Webshop</li>
             </ul>
         </div>
         <div class="grid">
             <div class="image"><img class="skor-img" src="images/skor.jpg" alt=""></div>
-            <div class="beskrivning"><strong class="text">Beskrivning</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
-            <div class="pris">Köp här<button>599kr</button> </div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
             
         </div>
         <div class="grid">
             <div class="image"><img class="skor-img" src="images/skor1.jpg" alt=""></div>
-            <div class="beskrivning"><strong class="text">Beskrivning</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
-            <div class="pris">Köp här<button>599kr</button> </div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p><button class="euro">59$</button> </div>
             
         </div>
         <div class="grid">
             <div class="image"><img class="skor-img" src="images/skor2.jpg" alt=""></div>
-            <div class="beskrivning"><strong class="text">Beskrivning</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
-            <div class="pris">Köp här<button>599kr</button> </div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p><button class="euro">59$</button> </div>
             
         </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor3.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor4.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor5.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor6.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor7.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor8.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+        <div class="grid">
+            <div class="image"><img class="skor-img" src="images/skor9.jpg" alt=""></div>
+            <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
+            <div class="pris"><p class="buy">Buy</p> <button class="euro">59$</button></div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div>copyright<i class="fa-regular fa-copyright"></i>josefinastborg</div>
+        <br>
+        <div>josefinastborg@hotmail.com</div>
+        <i class="fa-brands fa-facebook-messenger"></i>
+        <i class="fa-brands fa-instagram"></i>
     </div>
     <script src="script.js"></script>
 </body>

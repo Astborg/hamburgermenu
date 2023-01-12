@@ -1,8 +1,5 @@
-* {
-    font-family:Arial, Helvetica, sans-serif
-}
+
 .square{
-    background-color: rgb(245, 243, 243);
     width: 80vw;
     height: 100%; 
     margin: auto;
@@ -49,9 +46,15 @@ li:active{
 .change:hover{
     font-weight: bold;
     background-color: grey;
-    border-radius: 1.5vw;
-     
-   
+    border-radius: 1.5vw;  
+}
+.lang{
+    float: right; 
+    margin-top: 3vw;
+    cursor: pointer;  
+}
+.lang:active{
+    transform: scale(0.9);
 }
 img{
     width: 7vw;
@@ -106,7 +109,6 @@ button{
     padding: 0.5vw; 
     background-color: orangered; 
     float: right; 
-    margin-top: 3vw; 
     margin-right: 10vw; 
     cursor: pointer; 
     font-weight: bold;  
@@ -117,6 +119,10 @@ button:hover{
 button:active{
     transform: scale(0.9)
 }
+p{
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+}
 .skor-img{
     position: absolute; 
     width: 25vw; 
@@ -126,9 +132,31 @@ button:active{
     font-size: 2vw; 
 }
 .text2{
-    font-size: 1vw; 
-    
+    font-size: 1vw;  
 }
+.footer{
+    height: 12vw; 
+    background-color: grey; 
+    width: 80vw; 
+    margin: auto;
+    text-align: center; 
+    padding-top: 2vw; 
+}
+.fa-brands{
+    padding: 2vw; 
+    width: 4vw; 
+    cursor: pointer;
+    position: relative;
+    animation: mymove 2s infinite;
+    animation-direction: alternate; 
+}
+.fa-brands:active{
+    transform: scale(1.5);
+}
+@keyframes mymove {
+    from {top: 0vw;}
+    to {top: 4vw;}
+  }
 @media screen and (max-width: 768px){
     .square{
         height: 100%; 
@@ -217,10 +245,11 @@ button:active{
         position: relative; 
         display: flex; 
         width: 76.5vw;
+        height: 8vw; 
         flex-direction: column; 
         padding-bottom: 7.5vw;
         margin: 0.6vw;
-        margin-bottom: 1vw; 
+        margin-bottom: 2vw; 
         text-align: center;
         font-size: 3vw;   
     }
@@ -229,7 +258,7 @@ button:active{
         width:76.5vw;
         height: 7vw;  
         margin-right: 0.5vw; 
-        margin-top: 4vw;
+        margin-top: 7vw;
     }
     .text{
         font-size: 2.5vw;
@@ -238,5 +267,8 @@ button:active{
     .text2{
         font-size: 2.5vw; 
     }
-
+    .footer{
+        height: 20vw; 
+        padding-bottom: 2vw; 
+    }
 }

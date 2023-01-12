@@ -1,0 +1,10 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(245, 243, 243);
+
+* {
+  font: 100% $font-stack;
+  
+}
+.square{
+    background-color: $primary-color;
+}
