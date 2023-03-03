@@ -52,6 +52,7 @@ li:active{
     float: right; 
     margin-top: 3vw;
     cursor: pointer;  
+    font-size: 2vw;   
 }
 .lang:active{
     transform: scale(0.9);
