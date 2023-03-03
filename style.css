@@ -51,6 +51,7 @@ li:active{
 .lang{
     float: right; 
     margin-top: 3vw;
+    margin-right: 4vw; 
     cursor: pointer;  
     font-size: 2vw;   
 }

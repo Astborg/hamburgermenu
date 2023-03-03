@@ -1,38 +1,4 @@
-//dark mode
-const bar = document.getElementById("bar");
-const menu = document.getElementById("menu");
-const change = document.getElementById("change");
-const mode = document.getElementById("mode");
-const image = document.querySelector('.image')
-const square = document.querySelector('.square')
-const beskrivning = document.querySelector('.beskrivning')
-const pris = document.querySelector('.pris')
 
-
-bar.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-});
-change.addEventListener("click", () => {
-  console.log(mode.content);
-  if (mode.content == "light") {
-    console.log("funkar");
-    mode.content = "dark";
-    change.innerText = "light";
-    change.style.color = "white";
-    change.style.backgroundColor = "black";
-
-    square.style.backgroundColor = 'black'
-  } else {
-  mode.content = "light";
-  change.innerText = "dark";
-  change.style.color = "black";
-  change.style.backgroundColor = "white"; 
-  image.style.backgroundColor = 'rgba(255, 255, 255, 0.708)';
-  beskrivning.style.backgroundColor = 'rgba(255, 255, 255, 0.708)';
-  pris.style.backgroundColor = 'rgba(255, 255, 255, 0.708)';
-  square.style.backgroundColor = 'rgb(245, 243, 243)';
-}
-});
 
 //hämta från firebase
 async function getProducts(){
