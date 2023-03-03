@@ -74,6 +74,14 @@ img:hover{
     margin-top: 1vw; 
     
 }
+#container{
+    display: flex; 
+    flex-direction: column;
+}
+.div-container{
+    display: flex; 
+    flex-direction: row;
+}
 .image{
     position: relative; 
     grid-column: 1/ span 2;

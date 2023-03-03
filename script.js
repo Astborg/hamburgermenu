@@ -46,7 +46,7 @@ async function getProducts(){
     // const generatedHTML = Object.keys(data).reduce((accum, currKey) => accum +
     const generatedHTML = Object.keys(data).reduce((accum, i) => accum +
     
-    `<div>
+    `<div  class="div-container">
       <div>${data[i].namn}</div>
       <div class="image"><img class="skor-img" src="${data[i].img}" alt=""></div>
       <div class="beskrivning"><strong class="text">Description</strong><br><br><p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas quasi praesentium voluptates minima deleniti enim sint quidem expedita sed ut officiis hic dolore dolor quaerat atque earum tenetur necessitatibus, maiores odit illo molestias voluptatibus adipisci quos? Vero necessitatibus tempora inventore, accusamus illo, maiores quisquam quo odit nesciunt qui nisi hic est non aliquid ex numquam earum aperiam? Recusandae excepturi eligendi nemo magni praesentium assumenda, placeat rem numquam illo provident earum officia eveniet tempora commodi laborum molestias animi expedita nihil sint explicabo quos modi at. Odio vel a voluptas explicabo pariatur, enim impedit quas eius ab recusandae, veniam, deserunt consequatur.</p></div>
